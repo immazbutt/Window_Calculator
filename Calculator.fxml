@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<VBox id="calculator" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="memory" id="memory" />
+    <Label fx:id="display" id="display" />
+    <HBox>
+        <Button text="("/>
+        <Button text="C"/>
+        <Button text="+/-"/>
+        <Button text="\%"/>
+        <Button text="/"/>
+        <Button text="π" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text=")"/>
+        <Button text="sin"/>
+        <Button text="cos"/>
+        <Button text="tan"/>
+        <Button text="^"/>
+        <Button text="bk" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="ln"/>
+        <Button text="7"/>
+        <Button text="8"/>
+        <Button text="9"/>
+        <Button text="√"/>
+        <Button text="*" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="exp"/>
+        <Button text="4"/>
+        <Button text="5"/>
+        <Button text="6"/>
+        <Button text="CE"/>
+        <Button text="-" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="mod"/>
+        <Button text="1"/>
+        <Button text="2"/>
+        <Button text="3"/>
+        <Button text="log"/>
+        <Button text="+" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="0" styleClass="zero"/>
+        <Button text="e^"/>
+        <Button text="10^"/>
+        <Button text="=" styleClass="op"/>
+    </HBox>
+</VBox>
